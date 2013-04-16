@@ -35,7 +35,7 @@ setuptools.setup(
     author='OpenStack, LLC.',
     author_email='openstack-admins@lists.launchpad.net',
     packages=setuptools.find_packages(exclude=['tests', 'tests.*']),
-    install_requires=['eventlet', 'requests', 'keystoneclient'],
+    install_requires=['eventlet', 'requests', 'python-keystoneclient'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
